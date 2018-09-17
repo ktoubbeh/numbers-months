@@ -1,48 +1,6 @@
 # numbers-months
 
-/*
- * Karen Toubbeh
- * Java
- * February 13, 2017
- *
- * Exercise #05
- */
 
-import java.util.Scanner;
-public class InOrder
-{
-public static void main(String[] args) {
-// Declarations
-Scanner input = new Scanner(System.in);
-
-System.out.print("Enter three values: ");
-int num1 = input.nextInt();
-int num2 = input.nextInt();
-int num3 = input.nextInt();
-    
-if ((num1 < num2) && (num2 < num3))
-{
-    System.out.println("The sorted numbers are " + num1 + " " + num2 + " " + num3);
-    }
-if ((num1 < num2) && (num2 > num3))
-{
-    System.out.println("The sorted numbers are " + num3 + " " + num1 + " " + num2);
-    }
-if ((num1 > num2) && (num2 > num3))
-{
-    System.out.println("The sorted numbers are " + num3 + " " + num2 + " " + num1);
-    }
-if ((num1 > num2) && (num2 < num3))
-{
-    System.out.println("The sorted numbers are " + num2 + " " + num1 + " " + num3);
-    }
-if((num1 > num2) && (num2 < num3))
-{
-    System.out.println("The sorted numbers are " + num2 + " " + num3 + " " + num1);
-    }
-
-}
-}
 
 /*
  * Karen Toubbeh
@@ -127,5 +85,47 @@ public class Smallest
 }
         
         
-        
+        /*
+ * Karen Toubbeh
+ * CS A170
+ * February 13, 2017
+ *
+ * Exercise #05
+ */
+
+import java.util.Scanner;
+public class InOrder
+{
+public static void main(String[] args) {
+// Declarations
+Scanner input = new Scanner(System.in);
+
+System.out.print("Enter three values: ");
+int num1 = input.nextInt();
+int num2 = input.nextInt();
+int num3 = input.nextInt();
+    
+if ((num1 < num2) && (num2 < num3))
+{
+    System.out.println("The sorted numbers are " + num1 + " " + num2 + " " + num3);
+    }
+if ((num1 < num2) && (num2 > num3))
+{
+    System.out.println("The sorted numbers are " + num3 + " " + num1 + " " + num2);
+    }
+if ((num1 > num2) && (num2 > num3))
+{
+    System.out.println("The sorted numbers are " + num3 + " " + num2 + " " + num1);
+    }
+if ((num1 > num2) && (num2 < num3))
+{
+    System.out.println("The sorted numbers are " + num2 + " " + num1 + " " + num3);
+    }
+if((num1 > num2) && (num2 < num3))
+{
+    System.out.println("The sorted numbers are " + num2 + " " + num3 + " " + num1);
+    }
+
+}
+}
         
